@@ -1,0 +1,13 @@
+**Casio fx-9860GII Program**
+
+“Initial T”? ➔T                        *? is in PRGM*
+“Initial Y”? ➔Y
+“Ending T”? ➔A
+“Step Size”? ➔H
+Do                                      *Do is found in [Shift>Catalog>Program Command]*
+T+H➔U
+Y+**Y**1×H➔V                           ***Y** is found in [VARS>GRPH]*
+U➔T
+V➔Y
+LpWhile T<A                             *LpWhile is found in [Shift>Catalog>Program Command]*
+Y
