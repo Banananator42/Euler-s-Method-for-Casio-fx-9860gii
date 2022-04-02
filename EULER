@@ -6,7 +6,7 @@
 “Step Size”? ➔H
 Do                                      *Do is found in [Shift>Catalog>Program Command]
 T+H➔U
-Y+*Y*1×H➔V                             **Y* is found in [VARS>GRPH]
+Y+*Y*1×H➔V                             **Y* is found in [VARS>GRPH]  Note *Y* is supposed to be bold
 U➔T
 V➔Y
 LpWhile T<A                             *LpWhile is found in [Shift>Catalog>Program Command]
