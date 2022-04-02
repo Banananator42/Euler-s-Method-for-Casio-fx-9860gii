@@ -1,0 +1,20 @@
+#Casio fx-9860GII Program
+##This program will run another step everytime you press enter
+
+“Initial T”? ➔T                        *? is in PRGM
+“Initial Y”? ➔Y
+“Step Size”? ➔H
+0➔C
+Lbl 1                                   *Lbl is found in [Shift>Catalog>Program Command]
+C+1➔C
+T+H➔U
+Y+*Y*1×H➔V                             **Y* is found in [VARS>GRPH]  Note *Y* is supposed to be bold
+"Step Number"
+C
+"T Coord"
+U
+"Y Coord"
+V
+U➔T
+V➔Y
+Goto 1                                  *Goto is found in [Shift>Catalog>Program Command]
