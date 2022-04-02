@@ -1,4 +1,5 @@
 #Casio fx-9860GII Program
+##This program executes until it reaches the ending t value
 
 “Initial T”? ➔T                        *? is in PRGM
 “Initial Y”? ➔Y
