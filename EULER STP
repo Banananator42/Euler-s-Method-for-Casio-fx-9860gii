@@ -10,11 +10,11 @@ C+1➔C
 T+H➔U
 Y+*Y*1×H➔V                             **Y* is found in [VARS>GRPH]  Note *Y* is supposed to be bold
 "Step Number"
-C
+C◢                                     *◢ is found in [Shift>Program]
 "T Coord"
-U
+U◢
 "Y Coord"
-V
+V◢
 U➔T
 V➔Y
 Goto 1                                  *Goto is found in [Shift>Catalog>Program Command]
